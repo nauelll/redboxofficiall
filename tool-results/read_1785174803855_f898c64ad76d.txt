@@ -1,0 +1,502 @@
+   700→      </div>
+   701→      <div class="space-y-3">
+   702→        <details class="faq-item" open>
+   703→          <summary>Bagaimana cara order produk REDBOX?</summary>
+   704→          <p>Klik tombol "Belanja di Shopee" atau "Belanja di Tokopedia" di halaman ini, pilih produk yang kamu suka, lalu checkout langsung di aplikasi marketplace seperti biasa.</p>
+   705→        </details>
+   706→        <details class="faq-item">
+   707→          <summary>Bagaimana jika ukuran tidak pas?</summary>
+   708→          <p>Gunakan fitur Size Guide kami untuk mendapat rekomendasi otomatis berdasarkan tinggi &amp; berat badan. Jika tetap tidak pas, hubungi admin toko via chat di Shopee/Tokopedia untuk proses tukar ukuran.</p>
+   709→        </details>
+   710→        <details class="faq-item">
+   711→          <summary>Berapa lama waktu pengiriman?</summary>
+   712→          <p>Pesanan diproses same-day untuk order sebelum jam 3 sore, dengan estimasi sampai 2-5 hari kerja tergantung lokasi tujuan di seluruh Indonesia.</p>
+   713→        </details>
+   714→        <details class="faq-item">
+   715→          <summary>Apakah produk REDBOX original?</summary>
+   716→          <p>Ya, 100% original dan diproduksi sendiri dengan kontrol kualitas ketat di setiap tahap produksi sebelum dikirim ke pelanggan.</p>
+   717→        </details>
+   718→      </div>
+   719→    </div>
+   720→  </section>
+   721→
+   722→  <!-- ============================================ -->
+   723→  <!-- SECTION: FINAL CTA                           -->
+   724→  <!-- ============================================ -->
+   725→  <section class="relative py-20 sm:py-28 bg-charcoal overflow-hidden">
+   726→    <div class="absolute inset-0 bg-gradient-to-br from-redbox-950/60 via-charcoal to-charcoal"></div>
+   727→    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+   728→      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 leading-tight">Jangan Sampai Kehabisan<br/>Koleksi Favoritmu</h2>
+   729→      <p class="text-white/60 text-base sm:text-lg mb-10 max-w-xl mx-auto">Stok terbatas dan selalu cepat habis. Amankan ukuran &amp; warna favorit si kecil sekarang juga.</p>
+   730→      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+   731→        <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-redbox-600 text-white px-9 py-4 text-sm font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-redbox-600/30">
+   732→          Belanja di Shopee
+   733→          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   734→        </a>
+   735→        <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-charcoal px-9 py-4 text-sm font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-white/90 transition-all duration-300 hover:-translate-y-1">
+   736→          Belanja di Tokopedia
+   737→          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   738→        </a>
+   739→      </div>
+   740→    </div>
+   741→  </section>
+   742→
+   743→ 
+   744→  <!-- ============================================ -->
+   745→  <!-- FOOTER                                       -->
+   746→  <!-- ============================================ -->
+   747→  <footer class="bg-charcoal pt-16 sm:pt-20 pb-8">
+   748→    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   749→      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-12 sm:mb-16">
+   750→
+   751→        <!-- Brand -->
+   752→        <div class="col-span-2 lg:col-span-1">
+   753→          <div class="flex items-center gap-3 mb-5">
+   754→            <div class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center overflow-hidden p-1">
+   755→              <img src="assets/img/icons/redbox-logo.png" alt="REDBOX" class="w-full h-full object-contain" />
+   756→            </div>
+   757→            <div class="flex flex-col leading-none">
+   758→              <span class="font-display text-lg font-bold tracking-[0.15em] text-white">REDBOX</span>
+   759→              <span class="text-[8px] tracking-[0.3em] text-white/40 uppercase">Official Store</span>
+   760→            </div>
+   761→          </div>
+   762→          <p class="text-white/40 text-sm leading-relaxed mb-5">Fashion anak &amp; remaja premium. Kualitas terbaik untuk generasi masa depan.</p>
+   763→          <div class="flex items-center gap-3">
+   764→            <a href="https://www.instagram.com/redbox.official?igsh=MXFpOWN6MHkxd2Q5aQ==" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-md" aria-label="Instagram">
+   765→              <svg class="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+   766→            </a>
+   767→            <a href="https://www.facebook.com/share/1Fm7EDcktv/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-md" aria-label="Facebook">
+   768→              <svg class="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+   769→            </a>
+   770→            <a href="https://www.tiktok.com/@redbox.official" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-white/70 hover:scale-110 hover:text-white hover:bg-charcoal transition-all duration-300 shadow-md" aria-label="TikTok">
+   771→              <svg class="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48v-7.15a8.16 8.16 0 005.58 2.17v-3.45c-1.13 0-2.84-.59-3.77-1.46V6.69h3.77z"/></svg>
+   772→            </a>
+   773→            <a href="https://wa.me/6281324898585" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-all duration-300 shadow-md" aria-label="WhatsApp">
+   774→              <svg class="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+   775→            </a>
+   776→          </div>
+   777→        </div>
+   778→
+   779→        <!-- Quick Links -->
+   780→        <div>
+   781→          <h4 class="text-white font-semibold text-sm tracking-wider uppercase mb-5">Navigasi</h4>
+   782→          <ul class="space-y-3">
+   783→            <li><a href="#home" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Home</a></li>
+   784→            <li><a href="#koleksi" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Koleksi</a></li>
+   785→            <li><a href="#tentang" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Tentang Kami</a></li>
+   786→            
+   787→          </ul>
+   788→        </div>
+   789→
+   790→        <!-- Marketplace -->
+   791→        <div>
+   792→          <h4 class="text-white font-semibold text-sm tracking-wider uppercase mb-5">Marketplace</h4>
+   793→          <ul class="space-y-3">
+   794→            <li><a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Shopee Star+</a></li>
+   795→            <li><a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Tokopedia</a></li>
+   796→            <li><a href="#" onclick="openSizeGuide(); return false;" class="text-white/40 text-sm hover:text-redbox-400 transition-colors duration-300">Panduan Ukuran</a></li>
+   797→          </ul>
+   798→        </div>
+   799→
+   800→        <!-- Contact -->
+   801→        <div>
+   802→          <h4 class="text-white font-semibold text-sm tracking-wider uppercase mb-5">Kontak</h4>
+   803→          <ul class="space-y-3">
+   804→            <li class="text-white/40 text-sm">Instagram: @redbox.official</li>
+   805→            <li class="text-white/40 text-sm">Facebook: REDBOX Official</li>
+   806→            <li class="text-white/40 text-sm">Shopee: REDBOX_OFFICIALSTORE</li>
+   807→          </ul>
+   808→        </div>
+   809→
+   810→      </div>
+   811→
+   812→      <!-- Bottom Footer -->
+   813→      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+   814→        <p class="text-white/25 text-xs tracking-wider">&copy; 2026 REDBOX Official Store. All rights reserved.</p>
+   815→        <p class="text-white/25 text-xs tracking-wider">Made with passion for kids fashion.</p>
+   816→      </div>
+   817→    </div>
+   818→  </footer>
+   819→
+   820→  <!-- ============================================ -->
+   821→  <!-- SIZE GUIDE MODAL                             -->
+   822→  <!-- ============================================ -->
+   823→  <div id="sizeGuideModal" class="fixed inset-0 z-[100] hidden">
+   824→    <!-- Backdrop -->
+   825→    <div class="absolute inset-0 bg-charcoal/70 backdrop-blur-sm" onclick="closeSizeGuide()"></div>
+   826→    <!-- Modal Content -->
+   827→    <div class="absolute inset-0 flex items-end sm:items-center justify-center p-0 sm:p-4">
+   828→      <div class="relative bg-white w-full sm:max-w-2xl sm:rounded-2xl max-h-[90vh] overflow-y-auto rounded-t-3xl sm:rounded-t-2xl">
+   829→        <!-- Modal Header -->
+   830→        <div class="sticky top-0 bg-white border-b border-charcoal/10 px-6 py-5 flex items-center justify-between z-10">
+   831→          <div>
+   832→            <h3 class="font-display text-xl font-bold text-charcoal">Panduan Ukuran</h3>
+   833→            <p class="text-warmgray text-xs mt-0.5">Size Chart - REDBOX Official · Toleransi ±2cm</p>
+   834→          </div>
+   835→          <button onclick="closeSizeGuide()" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-charcoal/5 transition-colors" aria-label="Tutup">
+   836→            <svg class="w-5 h-5 text-charcoal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+   837→          </button>
+   838→        </div>
+   839→        <!-- Modal Body -->
+   840→        <div class="p-6">
+   841→
+   842→          <!-- ===== BODY MEASUREMENT CALCULATOR ===== -->
+   843→          <div class="mb-6 rounded-2xl border border-redbox-100 bg-gradient-to-br from-redbox-50 to-cream overflow-hidden">
+   844→            <div class="px-5 pt-5 pb-4">
+   845→              <div class="flex items-center gap-2.5 mb-4">
+   846→                <div class="w-8 h-8 bg-redbox-600 rounded-lg flex items-center justify-center shrink-0">
+   847→                  <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+   848→                </div>
+   849→                <div>
+   850→                  <p class="text-xs font-bold tracking-widest uppercase text-redbox-600">Cari Ukuran Otomatis</p>
+   851→                  <p class="text-[10px] text-warmgray">Masukkan tinggi & berat badan untuk rekomendasi size</p>
+   852→                </div>
+   853→              </div>
+   854→              <div class="grid grid-cols-2 gap-3 mb-3">
+   855→                <div>
+   856→                  <label class="block text-[10px] font-bold tracking-wider uppercase text-charcoal/60 mb-1.5">Tinggi Badan</label>
+   857→                  <div class="relative">
+   858→                    <input id="inputHeight" type="number" min="100" max="200" placeholder="mis. 140" class="w-full bg-white border border-charcoal/10 rounded-xl px-3 py-2.5 pr-10 text-sm font-medium text-charcoal placeholder-charcoal/25 focus:outline-none focus:border-redbox-400 focus:ring-2 focus:ring-redbox-100 transition-all" oninput="calcSize()" />
+   859→                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] font-semibold text-warmgray">cm</span>
+   860→                  </div>
+   861→                </div>
+   862→                <div>
+   863→                  <label class="block text-[10px] font-bold tracking-wider uppercase text-charcoal/60 mb-1.5">Berat Badan</label>
+   864→                  <div class="relative">
+   865→                    <input id="inputWeight" type="number" min="10" max="100" placeholder="mis. 35" class="w-full bg-white border border-charcoal/10 rounded-xl px-3 py-2.5 pr-10 text-sm font-medium text-charcoal placeholder-charcoal/25 focus:outline-none focus:border-redbox-400 focus:ring-2 focus:ring-redbox-100 transition-all" oninput="calcSize()" />
+   866→                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] font-semibold text-warmgray">kg</span>
+   867→                  </div>
+   868→                </div>
+   869→              </div>
+   870→
+   871→              <!-- Result -->
+   872→              <div id="sizeResult" class="hidden mt-3">
+   873→                <div class="h-px bg-redbox-100 mb-3"></div>
+   874→                <div class="flex items-start gap-3">
+   875→                  <div class="shrink-0 w-14 h-14 bg-redbox-600 rounded-xl flex items-center justify-center shadow-lg shadow-redbox-200">
+   876→                    <span id="resultSizeBadge" class="text-white font-display font-bold text-xl leading-none"></span>
+   877→                  </div>
+   878→                  <div class="flex-1 min-w-0">
+   879→                    <p id="resultLabel" class="text-xs font-bold text-charcoal mb-1"></p>
+   880→                    <p id="resultDesc" class="text-[11px] text-warmgray leading-relaxed"></p>
+   881→                    <div id="resultTags" class="flex flex-wrap gap-1.5 mt-2"></div>
+   882→                  </div>
+   883→                </div>
+   884→                <!-- Size comparison bar -->
+   885→                <div class="mt-3 flex items-center gap-1.5">
+   886→                  <span class="text-[9px] tracking-widest uppercase text-warmgray font-semibold w-4">M</span>
+   887→                  <div id="bar-M" class="h-2 flex-1 rounded-full bg-charcoal/8 transition-all duration-500"></div>
+   888→                  <span class="text-[9px] tracking-widest uppercase text-warmgray font-semibold w-3">L</span>
+   889→                  <div id="bar-L" class="h-2 flex-1 rounded-full bg-charcoal/8 transition-all duration-500"></div>
+   890→                  <span class="text-[9px] tracking-widest uppercase text-warmgray font-semibold w-4">XL</span>
+   891→                  <div id="bar-XL" class="h-2 flex-1 rounded-full bg-charcoal/8 transition-all duration-500"></div>
+   892→                  <span class="text-[9px] tracking-widest uppercase text-warmgray font-semibold w-7">XXL</span>
+   893→                  <div id="bar-XXL" class="h-2 flex-1 rounded-full bg-charcoal/8 transition-all duration-500"></div>
+   894→                </div>
+   895→              </div>
+   896→
+   897→              <!-- Empty state hint -->
+   898→              <div id="sizeHint" class="flex items-center gap-2 mt-1">
+   899→                <svg class="w-3.5 h-3.5 text-redbox-400 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+   900→                <p class="text-[10px] text-warmgray">Isi kedua kolom untuk melihat rekomendasi ukuran secara otomatis</p>
+   901→              </div>
+   902→            </div>
+   903→          </div>
+   904→          <!-- ===== END CALCULATOR ===== -->
+   905→
+   906→          <!-- Category Tabs -->
+   907→          <div class="flex flex-wrap gap-2 mb-6">
+   908→            <button class="size-cat-tab active-cat px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-redbox-600 text-white" data-cat="kaos" onclick="switchCat(this,'kaos')">Kaos</button>
+   909→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="semi" onclick="switchCat(this,'semi')">Semi Oversize</button>
+   910→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="panjang" onclick="switchCat(this,'panjang')">T. Panjang</button>
+   911→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="kemeja" onclick="switchCat(this,'kemeja')">Kemeja</button>
+   912→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="hoodie" onclick="switchCat(this,'hoodie')">Hoodie</button>
+   913→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="jacket" onclick="switchCat(this,'jacket')">Jacket</button>
+   914→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="panjangcel" onclick="switchCat(this,'panjangcel')">Celana Panjang</button>
+   915→            <button class="size-cat-tab px-4 py-2 text-[10px] font-bold tracking-wider uppercase rounded-lg transition-all duration-300 bg-charcoal/5 text-charcoal/60 hover:bg-charcoal/10" data-cat="pendek" onclick="switchCat(this,'pendek')">Celana Pendek</button>
+   916→          </div>
+   917→
+   918→          <!-- TABLE: Kaos / T-Shirt Anak Tanggung -->
+   919→          <div id="cat-kaos" class="size-cat-content">
+   920→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">T-Shirt Anak Tanggung · LD = Lebar Dada · PJB = Panjang Badan</p>
+   921→            <div class="overflow-x-auto -mx-6 px-6">
+   922→              <table class="w-full text-sm">
+   923→                <thead><tr class="border-b-2 border-charcoal/10 bg-charcoal/3">
+   924→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+   925→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+   926→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD (cm)</th>
+   927→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB (cm)</th>
+   928→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+   929→                </tr></thead>
+   930→                <tbody>
+   931→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">44</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+   932→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">46</td><td class="py-3 px-3 text-center text-charcoal font-medium">61</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+   933→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">65</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+   934→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">69</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+   935→                </tbody>
+   936→              </table>
+   937→            </div>
+   938→          </div>
+   939→
+   940→          <!-- TABLE: Semi Oversize -->
+   941→          <div id="cat-semi" class="size-cat-content hidden">
+   942→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">T-Shirt Semi Oversize · LD = Lebar Dada · PJB = Panjang Badan</p>
+   943→            <div class="overflow-x-auto -mx-6 px-6">
+   944→              <table class="w-full text-sm">
+   945→                <thead><tr class="border-b-2 border-charcoal/10">
+   946→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+   947→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+   948→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD (cm)</th>
+   949→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB (cm)</th>
+   950→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+   951→                </tr></thead>
+   952→                <tbody>
+   953→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">46</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+   954→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">61</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+   955→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">65</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+   956→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">52</td><td class="py-3 px-3 text-center text-charcoal font-medium">69</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+   957→                </tbody>
+   958→              </table>
+   959→            </div>
+   960→          </div>
+   961→
+   962→          <!-- TABLE: T-Shirt Tangan Panjang -->
+   963→          <div id="cat-panjang" class="size-cat-content hidden">
+   964→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">T-Shirt Tangan Panjang · LD = Lebar Dada · PJB = Panjang Badan · PJT = Panjang Tangan</p>
+   965→            <div class="overflow-x-auto -mx-6 px-6">
+   966→              <table class="w-full text-sm">
+   967→                <thead><tr class="border-b-2 border-charcoal/10">
+   968→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+   969→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+   970→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD</th>
+   971→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB</th>
+   972→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJT</th>
+   973→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+   974→                </tr></thead>
+   975→                <tbody>
+   976→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">44</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-charcoal font-medium">53</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+   977→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">46</td><td class="py-3 px-3 text-center text-charcoal font-medium">61</td><td class="py-3 px-3 text-center text-charcoal font-medium">55</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+   978→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">65</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+   979→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">69</td><td class="py-3 px-3 text-center text-charcoal font-medium">59</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+   980→                </tbody>
+   981→              </table>
+   982→            </div>
+   983→          </div>
+   984→
+   985→          <!-- TABLE: Kemeja -->
+   986→          <div id="cat-kemeja" class="size-cat-content hidden">
+   987→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">Kemeja Anak Tanggung · LD = Lebar Dada · PJB = Panjang Badan · PJT = Panjang Tangan</p>
+   988→            <div class="overflow-x-auto -mx-6 px-6">
+   989→              <table class="w-full text-sm">
+   990→                <thead><tr class="border-b-2 border-charcoal/10">
+   991→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+   992→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+   993→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD</th>
+   994→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB</th>
+   995→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJT</th>
+   996→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+   997→                </tr></thead>
+   998→                <tbody>
+   999→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">44</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-charcoal font-medium">53</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+  1000→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">46</td><td class="py-3 px-3 text-center text-charcoal font-medium">61</td><td class="py-3 px-3 text-center text-charcoal font-medium">55</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+  1001→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">65</td><td class="py-3 px-3 text-center text-charcoal font-medium">57</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+  1002→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">69</td><td class="py-3 px-3 text-center text-charcoal font-medium">59</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+  1003→                </tbody>
+  1004→              </table>
+  1005→            </div>
+  1006→          </div>
+  1007→
+  1008→          <!-- TABLE: Sweater Hoodie -->
+  1009→          <div id="cat-hoodie" class="size-cat-content hidden">
+  1010→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">Sweater Hoodie · LD = Lebar Dada · PJB = Panjang Badan · PJT = Panjang Tangan</p>
+  1011→            <div class="overflow-x-auto -mx-6 px-6">
+  1012→              <table class="w-full text-sm">
+  1013→                <thead><tr class="border-b-2 border-charcoal/10">
+  1014→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+  1015→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+  1016→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD</th>
+  1017→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB</th>
+  1018→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJT</th>
+  1019→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+  1020→                </tr></thead>
+  1021→                <tbody>
+  1022→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">46</td><td class="py-3 px-3 text-center text-charcoal font-medium">58</td><td class="py-3 px-3 text-center text-charcoal font-medium">51</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+  1023→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">60</td><td class="py-3 px-3 text-center text-charcoal font-medium">53</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+  1024→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">63</td><td class="py-3 px-3 text-center text-charcoal font-medium">55</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+  1025→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">52</td><td class="py-3 px-3 text-center text-charcoal font-medium">66</td><td class="py-3 px-3 text-center text-charcoal font-medium">58</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+  1026→                </tbody>
+  1027→              </table>
+  1028→            </div>
+  1029→          </div>
+  1030→
+  1031→          <!-- TABLE: Jacket -->
+  1032→          <div id="cat-jacket" class="size-cat-content hidden">
+  1033→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">Jacket · LD = Lebar Dada · PJB = Panjang Badan · PJT = Panjang Tangan</p>
+  1034→            <div class="overflow-x-auto -mx-6 px-6">
+  1035→              <table class="w-full text-sm">
+  1036→                <thead><tr class="border-b-2 border-charcoal/10">
+  1037→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+  1038→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+  1039→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LD</th>
+  1040→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJB</th>
+  1041→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJT</th>
+  1042→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+  1043→                </tr></thead>
+  1044→                <tbody>
+  1045→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">48</td><td class="py-3 px-3 text-center text-charcoal font-medium">58</td><td class="py-3 px-3 text-center text-charcoal font-medium">49</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+  1046→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">50</td><td class="py-3 px-3 text-center text-charcoal font-medium">61</td><td class="py-3 px-3 text-center text-charcoal font-medium">52</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+  1047→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">53</td><td class="py-3 px-3 text-center text-charcoal font-medium">65</td><td class="py-3 px-3 text-center text-charcoal font-medium">56</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+  1048→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">56</td><td class="py-3 px-3 text-center text-charcoal font-medium">68</td><td class="py-3 px-3 text-center text-charcoal font-medium">58</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+  1049→                </tbody>
+  1050→              </table>
+  1051→            </div>
+  1052→          </div>
+  1053→
+  1054→          <!-- TABLE: Celana Panjang -->
+  1055→          <div id="cat-panjangcel" class="size-cat-content hidden">
+  1056→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">Celana Panjang · LK = Lingkar Karet · LP = Lebar Paha · PJ = Panjang</p>
+  1057→            <div class="overflow-x-auto -mx-6 px-6">
+  1058→              <table class="w-full text-sm">
+  1059→                <thead><tr class="border-b-2 border-charcoal/10">
+  1060→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+  1061→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+  1062→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LK</th>
+  1063→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LP</th>
+  1064→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJ</th>
+  1065→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+  1066→                </tr></thead>
+  1067→                <tbody>
+  1068→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">64</td><td class="py-3 px-3 text-center text-charcoal font-medium">26</td><td class="py-3 px-3 text-center text-charcoal font-medium">80</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+  1069→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">66</td><td class="py-3 px-3 text-center text-charcoal font-medium">27</td><td class="py-3 px-3 text-center text-charcoal font-medium">84</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+  1070→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">68</td><td class="py-3 px-3 text-center text-charcoal font-medium">28</td><td class="py-3 px-3 text-center text-charcoal font-medium">88</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+  1071→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">70</td><td class="py-3 px-3 text-center text-charcoal font-medium">29</td><td class="py-3 px-3 text-center text-charcoal font-medium">92</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+  1072→                </tbody>
+  1073→              </table>
+  1074→            </div>
+  1075→          </div>
+  1076→
+  1077→          <!-- TABLE: Celana Pendek -->
+  1078→          <div id="cat-pendek" class="size-cat-content hidden">
+  1079→            <p class="text-[10px] text-warmgray uppercase tracking-widest font-semibold mb-3">Celana Pendek · LK = Lingkar Karet · LP = Lebar Paha · PJ = Panjang</p>
+  1080→            <div class="overflow-x-auto -mx-6 px-6">
+  1081→              <table class="w-full text-sm">
+  1082→                <thead><tr class="border-b-2 border-charcoal/10">
+  1083→                  <th class="text-left py-3 px-3 text-xs font-bold tracking-wider uppercase text-white bg-redbox-600 rounded-tl-lg">Size</th>
+  1084→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">Usia</th>
+  1085→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LK</th>
+  1086→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">LP</th>
+  1087→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">PJ</th>
+  1088→                  <th class="text-center py-3 px-3 text-xs font-semibold tracking-wider uppercase text-warmgray">BB (kg)</th>
+  1089→                </tr></thead>
+  1090→                <tbody>
+  1091→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">M</td><td class="py-3 px-3 text-center text-warmgray">9-11 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">64</td><td class="py-3 px-3 text-center text-charcoal font-medium">26</td><td class="py-3 px-3 text-center text-charcoal font-medium">43</td><td class="py-3 px-3 text-center text-warmgray">33-38</td></tr>
+  1092→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">L</td><td class="py-3 px-3 text-center text-warmgray">11-13 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">66</td><td class="py-3 px-3 text-center text-charcoal font-medium">27</td><td class="py-3 px-3 text-center text-charcoal font-medium">44</td><td class="py-3 px-3 text-center text-warmgray">38-43</td></tr>
+  1093→                  <tr class="border-b border-charcoal/5 hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XL</td><td class="py-3 px-3 text-center text-warmgray">13-15 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">68</td><td class="py-3 px-3 text-center text-charcoal font-medium">28</td><td class="py-3 px-3 text-center text-charcoal font-medium">45</td><td class="py-3 px-3 text-center text-warmgray">43-48</td></tr>
+  1094→                  <tr class="hover:bg-redbox-50/50"><td class="py-3 px-3 font-bold text-charcoal">XXL</td><td class="py-3 px-3 text-center text-warmgray">15-17 th</td><td class="py-3 px-3 text-center text-charcoal font-medium">70</td><td class="py-3 px-3 text-center text-charcoal font-medium">29</td><td class="py-3 px-3 text-center text-charcoal font-medium">47</td><td class="py-3 px-3 text-center text-warmgray">48-53</td></tr>
+  1095→                </tbody>
+  1096→              </table>
+  1097→            </div>
+  1098→          </div>
+  1099→
+  1100→          <!-- Tips -->
+  1101→          <div class="mt-6 p-4 bg-cream rounded-xl border border-charcoal/5">
+  1102→            <div class="flex items-start gap-3">
+  1103→              <svg class="w-5 h-5 text-redbox-600 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+  1104→              <div>
+  1105→                <p class="text-sm font-semibold text-charcoal mb-1">Tips Memilih Ukuran</p>
+  1106→                <p class="text-xs text-warmgray leading-relaxed">Semua ukuran dalam satuan centimeter (cm). Jika ukuran anak berada di antara dua size, pilih size yang lebih besar agar lebih nyaman. Toleransi ukuran ±2cm.</p>
+  1107→              </div>
+  1108→            </div>
+  1109→          </div>
+  1110→
+  1111→          <!-- CTA in Modal -->
+  1112→          <div class="mt-5 flex flex-col sm:flex-row gap-3">
+  1113→            <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-5 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-colors duration-300">
+  1114→              Belanja di Shopee
+  1115→            </a>
+  1116→            <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 bg-charcoal text-white px-5 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal/80 transition-colors duration-300">
+  1117→              Belanja di Tokopedia
+  1118→            </a>
+  1119→          </div>
+  1120→        </div>
+  1121→      </div>
+  1122→    </div>
+  1123→  </div>
+  1124→
+  1125→  <script>
+  1126→    function switchCat(btn, catId) {
+  1127→      document.querySelectorAll('.size-cat-tab').forEach(b => {
+  1128→        b.classList.remove('bg-redbox-600','text-white');
+  1129→        b.classList.add('bg-charcoal/5','text-charcoal/60');
+  1130→      });
+  1131→      btn.classList.add('bg-redbox-600','text-white');
+  1132→      btn.classList.remove('bg-charcoal/5','text-charcoal/60');
+  1133→      document.querySelectorAll('.size-cat-content').forEach(c => c.classList.add('hidden'));
+  1134→      document.getElementById('cat-' + catId).classList.remove('hidden');
+  1135→    }
+  1136→  </script>
+  1137→
+  1138→  <!-- ============================================ -->
+  1139→  <!-- SIZE GUIDE INTRO BANNER (appears on load)    -->
+  1140→  <!-- ============================================ -->
+  1141→  <div id="sizeGuideBanner" class="fixed bottom-40 lg:bottom-24 right-4 sm:right-6 z-50 opacity-0 translate-y-4 pointer-events-none transition-all duration-500" style="max-width:300px;">
+  1142→    <div class="relative bg-white rounded-2xl shadow-2xl border border-charcoal/8 overflow-hidden">
+  1143→      <div class="h-1 bg-gradient-to-r from-redbox-600 to-redbox-400 w-full"></div>
+  1144→      <button onclick="dismissSizeBanner()" class="absolute top-2.5 right-2.5 w-6 h-6 flex items-center justify-center rounded-full bg-charcoal/5 hover:bg-charcoal/10 transition-colors z-10" aria-label="Tutup">
+  1145→        <svg class="w-3 h-3 text-charcoal/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+  1146→      </button>
+  1147→      <div class="px-4 pt-3.5 pb-4">
+  1148→        <div class="flex items-center gap-2.5 mb-2.5">
+  1149→          <div class="w-9 h-9 bg-redbox-600 rounded-xl flex items-center justify-center shrink-0 shadow-lg shadow-redbox-200">
+  1150→            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+  1151→          </div>
+  1152→          <div>
+  1153→            <p class="text-[11px] font-bold tracking-wider uppercase text-charcoal">Panduan Ukuran</p>
+  1154→            <p class="text-[10px] text-warmgray">Temukan size yang pas untuk si kecil</p>
+  1155→          </div>
+  1156→        </div>
+  1157→        <p class="text-[11px] text-warmgray leading-relaxed mb-3">Masukkan tinggi &amp; berat badan — kami rekomendasikan ukuran yang paling tepat secara otomatis.</p>
+  1158→        <button onclick="openSizeGuide(); dismissSizeBanner();" class="w-full bg-redbox-600 text-white text-[10px] font-bold tracking-[0.12em] uppercase py-2.5 rounded-xl hover:bg-redbox-700 transition-colors duration-300 flex items-center justify-center gap-2">
+  1159→          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+  1160→          Cek Ukuran Sekarang
+  1161→        </button>
+  1162→      </div>
+  1163→    </div>
+  1164→    <div class="flex justify-end pr-5 -mt-0.5">
+  1165→      <svg class="w-4 h-5 text-white filter drop-shadow-sm" viewBox="0 0 16 10" fill="white"><path d="M8 10L0 0h16L8 10z"/></svg>
+  1166→    </div>
+  1167→  </div>
+  1168→
+  1169→  <!-- ============================================ -->
+  1170→  <!-- STICKY MOBILE BUY BAR                        -->
+  1171→  <!-- ============================================ -->
+  1172→  <div class="lg:hidden fixed bottom-0 left-0 w-full z-50 bg-white border-t border-charcoal/10 shadow-[0_-8px_24px_rgba(0,0,0,0.08)] flex" style="padding-bottom: env(safe-area-inset-bottom);">
+  1173→    <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 bg-redbox-600 text-white py-4 text-xs font-bold tracking-[0.1em] uppercase">
+  1174→      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+  1175→      Shopee
+  1176→    </a>
+  1177→    <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 bg-charcoal text-white py-4 text-xs font-bold tracking-[0.1em] uppercase">
+  1178→      Tokopedia
+  1179→    </a>
+  1180→  </div>
+  1181→
+  1182→  <!-- ============================================ -->
+  1183→  <!-- FLOATING: Size Guide Button (Enhanced FAB)   -->
+  1184→  <!-- ============================================ -->
+  1185→  <div class="fixed bottom-24 lg:bottom-6 right-4 sm:right-6 z-40">
+  1186→    <span id="sizeFabPulse" class="absolute inset-0 rounded-2xl bg-redbox-400 animate-ping opacity-40"></span>
+  1187→    <button id="sizeFab" onclick="openSizeGuide(); dismissSizeBanner();" class="relative bg-redbox-600 text-white px-5 py-3.5 rounded-2xl shadow-2xl shadow-redbox-600/40 text-[10px] font-bold tracking-[0.15em] uppercase hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-redbox-600/60 flex items-center gap-2.5" aria-label="Size Guide">
+  1188→      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+  1189→      Size Guide
+  1190→    </button>
+  1191→  </div>
+  1192→
+  1193→  <!-- ============================================ -->
+  1194→  <!-- FLOATING: Back to Top Button                 -->
+  1195→  <!-- ============================================ -->
+  1196→  <button id="backToTopBtn" onclick="scrollToTop()" class="fixed bottom-24 lg:bottom-6 left-4 sm:left-6 z-40 bg-white/90 backdrop-blur text-charcoal w-11 h-11 rounded-xl shadow-lg text-sm opacity-0 pointer-events-none transition-all duration-300 hover:bg-white hover:-translate-y-1 flex items-center justify-center border border-charcoal/5" aria-label="Kembali ke atas">
+  1197→    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  1198→  </button>
+  1199→
+
+[showing lines 700-1199 of 1330; use offset=1200 with limit to continue reading]

@@ -1,0 +1,502 @@
+   200→  <!-- ============================================ -->
+   201→  <section id="home" class="relative min-h-screen flex items-center overflow-hidden bg-charcoal">
+   202→    <div class="absolute inset-0 bg-gradient-to-br from-charcoal via-charcoal/95 to-redbox-950/80"></div>
+   203→    <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fill-opacity=&quot;1&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+   204→
+   205→    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 sm:py-36 lg:py-40">
+   206→      <div class="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
+   207→        <!-- Text Content -->
+   208→        <div class="text-center lg:text-left order-2 lg:order-1">
+   209→          <p class="inline-block text-redbox-400 text-xs sm:text-sm tracking-[0.3em] uppercase font-semibold mb-5 sm:mb-7 border border-redbox-400/30 px-5 py-2 rounded-lg">
+   210→            Premium Kids Fashion
+   211→          </p>
+   212→          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-white leading-[1.05] mb-6 sm:mb-8">
+   213→            Style <em class="text-redbox-400 not-italic">Premium</em><br />
+   214→            untuk Generasi<br />
+   215→            Masa Depan
+   216→          </h1>
+   217→          <p class="text-white/60 text-base sm:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8 sm:mb-10">
+   218→            Koleksi baju anak &amp; remaja pilihan dengan desain eksklusif dan kualitas terbaik. Karena setiap anak layak tampil istimewa.
+   219→          </p>
+   220→          <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+   221→            <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto inline-flex flex-col items-center sm:items-start gap-0.5 bg-redbox-600 text-white px-8 py-4 rounded-xl hover:bg-redbox-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-redbox-600/30">
+   222→              <span class="inline-flex items-center gap-3 text-sm font-bold tracking-[0.15em] uppercase">
+   223→                Belanja di Shopee
+   224→                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   225→              </span>
+   226→              <span class="text-[10px] text-white/70 tracking-wide normal-case font-medium">⭐ Star+ Seller · Cek promo hari ini</span>
+   227→            </a>
+   228→            <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto inline-flex flex-col items-center sm:items-start gap-0.5 bg-white/10 backdrop-blur text-white border border-white/20 px-8 py-4 rounded-xl hover:bg-white hover:text-charcoal transition-all duration-300 hover:-translate-y-1">
+   229→              <span class="inline-flex items-center gap-3 text-sm font-bold tracking-[0.15em] uppercase">
+   230→                Belanja di Tokopedia
+   231→                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   232→              </span>
+   233→              <span class="text-[10px] text-white/70 group-hover:text-charcoal/60 tracking-wide normal-case font-medium">Pengiriman cepat ke seluruh Indonesia</span>
+   234→            </a>
+   235→          </div>
+   236→          <!-- Trust Badge -->
+   237→          <div class="flex items-center justify-center lg:justify-start gap-6 mt-10 sm:mt-12">
+   238→            <div class="flex items-center gap-2.5 text-white/50">
+   239→              <svg class="w-5 h-5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   240→              <span class="text-xs tracking-wider uppercase font-medium">Star+ Seller</span>
+   241→            </div>
+   242→            <div class="w-px h-4 bg-white/20"></div>
+   243→            <div class="flex items-center gap-2.5 text-white/50">
+   244→              <svg class="w-5 h-5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+   245→              <span class="text-xs tracking-wider uppercase font-medium">27.5K+ Followers</span>
+   246→            </div>
+   247→            <div class="w-px h-4 bg-white/20 hidden sm:block"></div>
+   248→            <div class="hidden sm:flex items-center gap-3 ml-1">
+   249→              <a href="https://www.instagram.com/redbox.official?igsh=MXFpOWN6MHkxd2Q5aQ==" target="_blank" rel="noopener noreferrer" class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center text-white/60 hover:text-white hover:bg-gradient-to-br hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 transition-all duration-300" aria-label="Instagram">
+   250→                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+   251→              </a>
+   252→              <a href="https://www.facebook.com/share/1Fm7EDcktv/" target="_blank" rel="noopener noreferrer" class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center text-white/60 hover:text-white hover:bg-blue-600 transition-all duration-300" aria-label="Facebook">
+   253→                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+   254→              </a>
+   255→            </div>
+   256→          </div>
+   257→        </div>
+   258→        <!-- Hero Visual - LEBIH BESAR & DRAMATIS -->
+   259→        <div class="order-1 lg:order-2 flex justify-center">
+   260→          <div class="relative w-full max-w-md lg:max-w-lg">
+   261→            <div class="relative aspect-[3/4] rounded-2xl border border-white/10 overflow-hidden shadow-2xl shadow-black/30">
+   262→              <img src="assets/img/hero/hero-showcase.png" alt="REDBOX Premium Collection - Fashion Anak & Remaja" class="w-full h-full object-cover" loading="eager" />
+   263→              <div class="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent"></div>
+   264→            </div>
+   265→            <!-- Floating Badge: New Collection -->
+   266→            <div class="absolute -bottom-4 -right-2 sm:-bottom-5 sm:-right-4 bg-redbox-600 text-white px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-2xl shadow-redbox-600/30 border border-redbox-500/30">
+   267→              <p class="text-[8px] sm:text-[9px] tracking-[0.2em] uppercase opacity-80 font-medium">New Collection</p>
+   268→              <p class="font-display text-lg sm:text-xl font-bold mt-0.5">2026</p>
+   269→            </div>
+   270→            <!-- Floating Badge: Followers -->
+   271→            <div class="absolute -top-4 -right-3 sm:-top-5 sm:-right-5 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-2xl flex items-center justify-center shadow-2xl border border-charcoal/5">
+   272→              <div class="text-center">
+   273→                <p class="font-display text-xl sm:text-2xl font-bold text-redbox-600">27K+</p>
+   274→                <p class="text-[8px] sm:text-[9px] tracking-wider uppercase text-warmgray font-medium">Followers</p>
+   275→              </div>
+   276→            </div>
+   277→            <!-- Floating Badge: Star+ -->
+   278→            <div class="absolute top-1/2 -left-5 sm:-left-8 bg-charcoal/90 backdrop-blur text-white px-4 py-2.5 rounded-xl shadow-xl border border-white/10">
+   279→              <div class="flex items-center gap-2">
+   280→                <svg class="w-4 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   281→                <span class="text-xs font-bold tracking-wider">STAR+</span>
+   282→              </div>
+   283→            </div>
+   284→          </div>
+   285→        </div>
+   286→      </div>
+   287→    </div>
+   288→    <!-- Scroll Indicator -->
+   289→    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+   290→      <span class="text-white/30 text-[10px] tracking-widest uppercase">Scroll</span>
+   291→      <svg class="w-4 h-4 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+   292→    </div>
+   293→  </section>
+   294→
+   295→  <!-- ============================================ -->
+   296→  <!-- MARQUEE TRUST BAR                            -->
+   297→  <!-- ============================================ -->
+   298→  <div class="bg-charcoal py-3 overflow-hidden border-t border-white/5">
+   299→    <div class="marquee-container">
+   300→      <div class="marquee-content">
+   301→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8"><svg class="w-3.5 h-3.5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Star+ Seller</span>
+   302→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8"><svg class="w-3.5 h-3.5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 27.5K+ Followers</span>
+   303→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">100% Original Product</span>
+   304→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">Premium Quality</span>
+   305→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">Free Return</span>
+   306→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8"><svg class="w-3.5 h-3.5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Star+ Seller</span>
+   307→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8"><svg class="w-3.5 h-3.5 text-redbox-400" fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 27.5K+ Followers</span>
+   308→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">100% Original Product</span>
+   309→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">Premium Quality</span>
+   310→        <span class="inline-flex items-center gap-2 text-white/40 text-xs tracking-widest uppercase font-medium mx-8">Free Return</span>
+   311→      </div>
+   312→    </div>
+   313→  </div>
+   314→
+   315→  <!-- ============================================ -->
+   316→  <!-- SECTION: KENAPA PILIH REDBOX (Trust/Value)   -->
+   317→  <!-- ============================================ -->
+   318→  <section class="bg-white py-14 sm:py-20 border-b border-charcoal/5">
+   319→    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   320→      <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+   321→        <div class="value-card group">
+   322→          <div class="w-12 h-12 rounded-xl bg-redbox-50 flex items-center justify-center mb-4 group-hover:bg-redbox-600 transition-colors duration-300">
+   323→            <svg class="w-6 h-6 text-redbox-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+   324→          </div>
+   325→          <p class="font-display text-base sm:text-lg font-bold text-charcoal mb-1.5">100% Original</p>
+   326→          <p class="text-warmgray text-xs sm:text-sm leading-relaxed">Setiap produk melewati quality check ketat sebelum sampai ke tanganmu.</p>
+   327→        </div>
+   328→        <div class="value-card group">
+   329→          <div class="w-12 h-12 rounded-xl bg-redbox-50 flex items-center justify-center mb-4 group-hover:bg-redbox-600 transition-colors duration-300">
+   330→            <svg class="w-6 h-6 text-redbox-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+   331→          </div>
+   332→          <p class="font-display text-base sm:text-lg font-bold text-charcoal mb-1.5">Pengiriman Cepat</p>
+   333→          <p class="text-warmgray text-xs sm:text-sm leading-relaxed">Diproses same-day untuk order sebelum jam 3 sore, sampai ke seluruh Indonesia.</p>
+   334→        </div>
+   335→        <div class="value-card group">
+   336→          <div class="w-12 h-12 rounded-xl bg-redbox-50 flex items-center justify-center mb-4 group-hover:bg-redbox-600 transition-colors duration-300">
+   337→            <svg class="w-6 h-6 text-redbox-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+   338→          </div>
+   339→          <p class="font-display text-base sm:text-lg font-bold text-charcoal mb-1.5">Star+ Seller</p>
+   340→          <p class="text-warmgray text-xs sm:text-sm leading-relaxed">Status resmi Shopee Star+ — bukti rating &amp; pelayanan terpercaya.</p>
+   341→        </div>
+   342→        <div class="value-card group">
+   343→          <div class="w-12 h-12 rounded-xl bg-redbox-50 flex items-center justify-center mb-4 group-hover:bg-redbox-600 transition-colors duration-300">
+   344→            <svg class="w-6 h-6 text-redbox-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+   345→          </div>
+   346→          <p class="font-display text-base sm:text-lg font-bold text-charcoal mb-1.5">Mudah Ditanya</p>
+   347→          <p class="text-warmgray text-xs sm:text-sm leading-relaxed">Fast response chat &amp; panduan ukuran otomatis agar tidak salah beli.</p>
+   348→        </div>
+   349→      </div>
+   350→    </div>
+   351→  </section>
+   352→
+   353→  <!-- ============================================ -->
+   354→  <!-- SECTION: KATEGORI PRODUK                     -->
+   355→  <!-- ============================================ -->
+   356→  <section id="koleksi" class="py-24 sm:py-32 bg-white">
+   357→    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   358→      <!-- Section Header -->
+   359→      <div class="text-center mb-16 sm:mb-24">
+   360→        <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-3">Kategori</p>
+   361→        <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal mb-5">Kategori Produk</h2>
+   362→        <p class="text-warmgray text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">Jelajahi setiap kategori koleksi premium REDBOX. Unisex — cocok untuk semua anak dan remaja Indonesia.</p>
+   363→        <div class="section-divider mt-8"></div>
+   364→      </div>
+   365→
+   366→      <!-- Category Grid -->
+   367→      <div class="space-y-20 sm:space-y-28">
+   368→
+   369→        <!-- KATEGORI 1: Short Sleeve T-Shirt -->
+   370→        <div class="lookbook-card group">
+   371→          <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+   372→            <div class="relative overflow-hidden rounded-2xl border border-charcoal/5 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+   373→              <img src="assets/img/categories/1.png" alt="Short Sleeve T-Shirt - REDBOX" class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+   374→              <div class="absolute top-5 left-5 bg-redbox-600/90 backdrop-blur text-white text-[9px] tracking-[0.2em] uppercase px-4 py-2 rounded-lg font-semibold">Kategori</div>
+   375→              <div class="absolute top-5 right-5 bg-charcoal text-white text-[9px] tracking-[0.15em] uppercase px-3.5 py-2 rounded-lg font-bold shadow-lg flex items-center gap-1.5">
+   376→                <svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   377→                Best Seller
+   378→              </div>
+   379→            </div>
+   380→            <div class="lg:pl-6">
+   381→              <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Unisex · Anak & Remaja</p>
+   382→              <h3 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-3 leading-tight">Short Sleeve<br/>T-Shirt</h3>
+   383→              <div class="flex items-center gap-3 mb-5">
+   384→                <span class="inline-flex items-center gap-1 text-xs font-semibold text-charcoal"><svg class="w-3.5 h-3.5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.9/5</span>
+   385→                <span class="w-1 h-1 rounded-full bg-warmgray/40"></span>
+   386→                <span class="text-xs text-warmgray font-medium">Terjual 1.200+</span>
+   387→              </div>
+   388→              <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">Solusi tampil keren tanpa repot. Koleksi Basic Short Sleeve kami hadir untuk nemenin semua aktivitas harianmu. Simpel, rapi, dan gak pernah salah buat gaya apa aja.</p>
+   389→              <div class="flex flex-wrap gap-2 mb-8">
+   390→                <span class="tag-pill">Nyaman Sehari-hari</span>
+   391→                <span class="tag-pill">Bahan Berkualitas</span>
+   392→                <span class="tag-pill">Desain Trendy</span>
+   393→                <span class="tag-pill">Unisex</span>
+   394→              </div>
+   395→              <div class="flex flex-col sm:flex-row gap-3">
+   396→                <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group/btn inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-redbox-600/20">
+   397→                  Beli di Shopee
+   398→                  <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   399→                </a>
+   400→                <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 border-2 border-charcoal text-charcoal px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal hover:text-white transition-all duration-300">
+   401→                  Beli di Tokopedia
+   402→                </a>
+   403→              </div>
+   404→            </div>
+   405→          </div>
+   406→        </div>
+   407→
+   408→        <!-- Divider -->
+   409→        <div class="flex items-center gap-4">
+   410→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   411→          <div class="w-2.5 h-2.5 bg-redbox-600 rounded-full"></div>
+   412→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   413→        </div>
+   414→
+   415→        <!-- KATEGORI 2: Long Sleeve T-Shirt -->
+   416→        <div class="lookbook-card group">
+   417→          <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+   418→            <div class="lg:order-2 relative overflow-hidden rounded-2xl border border-charcoal/5 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+   419→              <img src="assets/img/categories/2.png" alt="Long Sleeve T-Shirt - REDBOX" class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+   420→              <div class="absolute top-5 left-5 bg-charcoal/90 backdrop-blur text-white text-[9px] tracking-[0.2em] uppercase px-4 py-2 rounded-lg font-semibold">Kategori</div>
+   421→            </div>
+   422→            <div class="lg:order-1 lg:pr-6">
+   423→              <p class="text-charcoal/60 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Unisex · Anak & Remaja</p>
+   424→              <h3 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-3 leading-tight">Long Sleeve<br/>T-Shirt</h3>
+   425→              <div class="flex items-center gap-3 mb-5">
+   426→                <span class="inline-flex items-center gap-1 text-xs font-semibold text-charcoal"><svg class="w-3.5 h-3.5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.8/5</span>
+   427→                <span class="w-1 h-1 rounded-full bg-warmgray/40"></span>
+   428→                <span class="text-xs text-warmgray font-medium">Terjual 850+</span>
+   429→              </div>
+   430→              <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">Tampil Rapi Instan untuk Segala Usia. Pilihan terbaik untuk acara keluarga, jalan-jalan ke mall, atau momen formal pertama si remaja.</p>
+   431→              <div class="flex flex-wrap gap-2 mb-8">
+   432→                <span class="tag-pill">Berbagai Desain</span>
+   433→                <span class="tag-pill">Bahan Berkualitas</span>
+   434→                <span class="tag-pill">Lembut & Nyaman</span>
+   435→                <span class="tag-pill">Unisex</span>
+   436→              </div>
+   437→              <div class="flex flex-col sm:flex-row gap-3">
+   438→                <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group/btn inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-redbox-600/20">
+   439→                  Beli di Shopee
+   440→                  <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   441→                </a>
+   442→                <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 border-2 border-charcoal text-charcoal px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal hover:text-white transition-all duration-300">
+   443→                  Beli di Tokopedia
+   444→                </a>
+   445→              </div>
+   446→            </div>
+   447→          </div>
+   448→        </div>
+   449→
+   450→        <!-- Divider -->
+   451→        <div class="flex items-center gap-4">
+   452→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   453→          <div class="w-2.5 h-2.5 bg-redbox-600 rounded-full"></div>
+   454→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   455→        </div>
+   456→
+   457→        <!-- KATEGORI 3: Polo Shirt -->
+   458→        <div class="lookbook-card group">
+   459→          <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+   460→            <div class="relative overflow-hidden rounded-2xl border border-charcoal/5 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+   461→              <img src="assets/img/categories/3.png" alt="Polo Shirt - REDBOX" class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+   462→              <div class="absolute top-5 left-5 bg-redbox-600/90 backdrop-blur text-white text-[9px] tracking-[0.2em] uppercase px-4 py-2 rounded-lg font-semibold">Kategori</div>
+   463→            </div>
+   464→            <div class="lg:pl-6">
+   465→              <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Unisex · Anak & Remaja</p>
+   466→              <h3 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-3 leading-tight">Polo<br/>Shirt</h3>
+   467→              <div class="flex items-center gap-3 mb-5">
+   468→                <span class="inline-flex items-center gap-1 text-xs font-semibold text-charcoal"><svg class="w-3.5 h-3.5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.9/5</span>
+   469→                <span class="w-1 h-1 rounded-full bg-warmgray/40"></span>
+   470→                <span class="text-xs text-redbox-600 font-semibold">Stok terbatas</span>
+   471→              </div>
+   472→              <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">Tampil Rapi Instan untuk Segala Usia. Pilihan terbaik untuk acara keluarga, jalan-jalan ke mall, atau momen formal pertama si remaja.</p>
+   473→              <div class="flex flex-wrap gap-2 mb-8">
+   474→                <span class="tag-pill">Desain Kerah</span>
+   475→                <span class="tag-pill">Bahan Adem</span>
+   476→                <span class="tag-pill">Formal & Kasual</span>
+   477→                <span class="tag-pill">Unisex</span>
+   478→              </div>
+   479→              <div class="flex flex-col sm:flex-row gap-3">
+   480→                <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group/btn inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-redbox-600/20">
+   481→                  Beli di Shopee
+   482→                  <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   483→                </a>
+   484→                <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 border-2 border-charcoal text-charcoal px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal hover:text-white transition-all duration-300">
+   485→                  Beli di Tokopedia
+   486→                </a>
+   487→              </div>
+   488→            </div>
+   489→          </div>
+   490→        </div>
+   491→
+   492→        <!-- Divider -->
+   493→        <div class="flex items-center gap-4">
+   494→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   495→          <div class="w-2.5 h-2.5 bg-redbox-600 rounded-full"></div>
+   496→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   497→        </div>
+   498→
+   499→        <!-- KATEGORI 4: Modest Wear -->
+   500→        <div class="lookbook-card group">
+   501→          <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+   502→            <div class="lg:order-2 relative overflow-hidden rounded-2xl border border-charcoal/5 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+   503→              <img src="assets/img/categories/4.png" alt="Modest Wear - REDBOX" class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+   504→              <div class="absolute top-5 left-5 bg-charcoal/90 backdrop-blur text-white text-[9px] tracking-[0.2em] uppercase px-4 py-2 rounded-lg font-semibold">Kategori</div>
+   505→            </div>
+   506→            <div class="lg:order-1 lg:pr-6">
+   507→              <p class="text-charcoal/60 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Unisex · Anak & Remaja</p>
+   508→              <h3 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-3 leading-tight">Modest<br/>Wear</h3>
+   509→              <div class="flex items-center gap-3 mb-5">
+   510→                <span class="inline-flex items-center gap-1 text-xs font-semibold text-charcoal"><svg class="w-3.5 h-3.5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 5.0/5</span>
+   511→                <span class="w-1 h-1 rounded-full bg-warmgray/40"></span>
+   512→                <span class="text-xs text-warmgray font-medium">Terjual 600+</span>
+   513→              </div>
+   514→              <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">Koleksi Modest Wear Anak & Remaja. Desain santun, modern, dan menggunakan bahan yang adem untuk kenyamanan sepanjang hari.</p>
+   515→              <div class="flex flex-wrap gap-2 mb-8">
+   516→                <span class="tag-pill">Desain Santun</span>
+   517→                <span class="tag-pill">Bahan Adem</span>
+   518→                <span class="tag-pill">Modern</span>
+   519→                <span class="tag-pill">Unisex</span>
+   520→              </div>
+   521→              <div class="flex flex-col sm:flex-row gap-3">
+   522→                <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group/btn inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-redbox-600/20">
+   523→                  Beli di Shopee
+   524→                  <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   525→                </a>
+   526→                <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 border-2 border-charcoal text-charcoal px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal hover:text-white transition-all duration-300">
+   527→                  Beli di Tokopedia
+   528→                </a>
+   529→              </div>
+   530→            </div>
+   531→          </div>
+   532→        </div>
+   533→
+   534→        <!-- Divider -->
+   535→        <div class="flex items-center gap-4">
+   536→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   537→          <div class="w-2.5 h-2.5 bg-redbox-600 rounded-full"></div>
+   538→          <div class="flex-1 h-px bg-charcoal/8"></div>
+   539→        </div>
+   540→
+   541→        <!-- KATEGORI 5: Outerwear -->
+   542→        <div class="lookbook-card group">
+   543→          <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+   544→            <div class="relative overflow-hidden rounded-2xl border border-charcoal/5 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+   545→              <img src="assets/img/categories/5.png" alt="Outerwear - REDBOX" class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+   546→              <div class="absolute top-5 left-5 bg-redbox-600/90 backdrop-blur text-white text-[9px] tracking-[0.2em] uppercase px-4 py-2 rounded-lg font-semibold">Kategori</div>
+   547→              <div class="absolute top-5 right-5 bg-charcoal text-white text-[9px] tracking-[0.15em] uppercase px-3.5 py-2 rounded-lg font-bold shadow-lg flex items-center gap-1.5">
+   548→                <svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   549→                Favorit
+   550→              </div>
+   551→            </div>
+   552→            <div class="lg:pl-6">
+   553→              <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Unisex · Anak & Remaja</p>
+   554→              <h3 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-3 leading-tight">Outerwear</h3>
+   555→              <div class="flex items-center gap-3 mb-5">
+   556→                <span class="inline-flex items-center gap-1 text-xs font-semibold text-charcoal"><svg class="w-3.5 h-3.5 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.9/5</span>
+   557→                <span class="w-1 h-1 rounded-full bg-warmgray/40"></span>
+   558→                <span class="text-xs text-warmgray font-medium">Terjual 980+</span>
+   559→              </div>
+   560→              <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">Your Ultimate Outerwear. Pilihan jaket kasual yang pas untuk bonceng motor bareng Ayah atau luaran keren saat remaja hang out. Tahan angin, waterproof, dan tetap stylish.</p>
+   561→              <div class="flex flex-wrap gap-2 mb-8">
+   562→                <span class="tag-pill">Tahan Angin</span>
+   563→                <span class="tag-pill">Waterproof</span>
+   564→                <span class="tag-pill">Hoodie & Jacket</span>
+   565→                <span class="tag-pill">Unisex</span>
+   566→              </div>
+   567→              <div class="flex flex-col sm:flex-row gap-3">
+   568→                <a href="https://shopee.co.id/redbox_officialstore" target="_blank" rel="noopener noreferrer" class="group/btn inline-flex items-center justify-center gap-2 bg-redbox-600 text-white px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-redbox-700 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-redbox-600/20">
+   569→                  Beli di Shopee
+   570→                  <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+   571→                </a>
+   572→                <a href="https://www.tokopedia.com/redbox-official" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 border-2 border-charcoal text-charcoal px-7 py-3.5 text-xs font-bold tracking-[0.15em] uppercase rounded-xl hover:bg-charcoal hover:text-white transition-all duration-300">
+   573→                  Beli di Tokopedia
+   574→                </a>
+   575→              </div>
+   576→            </div>
+   577→          </div>
+   578→        </div>
+   579→
+   580→      </div>
+   581→    </div>
+   582→  </section>
+   583→
+   584→  <!-- ============================================ -->
+   585→  <!-- SECTION: TENTANG REDBOX                      -->
+   586→  <!-- ============================================ -->
+   587→  <section id="tentang" class="py-24 sm:py-32 bg-cream">
+   588→    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   589→      <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+   590→        <!-- Visual -->
+   591→        <div class="relative">
+   592→          <div class="aspect-[4/5] rounded-2xl border border-charcoal/5 overflow-hidden shadow-xl">
+   593→            <img src="assets/img/about.png" alt="REDBOX Brand Story - Premium Kids & Teen Fashion" class="w-full h-full object-cover" loading="lazy" />
+   594→          </div>
+   595→          <div class="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-6 bg-charcoal text-white px-8 py-5 sm:px-10 sm:py-6 rounded-2xl shadow-2xl border border-white/10">
+   596→            <p class="font-display text-3xl sm:text-4xl font-bold text-redbox-400">27.5K+</p>
+   597→            <p class="text-white/60 text-xs tracking-[0.2em] uppercase mt-1 font-medium">Pengikut Setia</p>
+   598→          </div>
+   599→        </div>
+   600→        <!-- Content -->
+   601→        <div>
+   602→          <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-4">Tentang Kami</p>
+   603→          <h2 class="font-display text-3xl sm:text-4xl font-bold text-charcoal mb-6 leading-tight">Fashion Premium untuk<br/>Buah Hati Terbaik Anda</h2>
+   604→          <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-6">
+   605→            REDBOX adalah brand fashion anak dan remaja premium yang berkomitmen menghadirkan pakaian berkualitas tinggi dengan desain yang trendy dan nyaman dikenakan. Setiap produk kami melewati proses seleksi ketat untuk memastikan kualitas jahitan, bahan, dan detail yang sempurna.
+   606→          </p>
+   607→          <p class="text-warmgray text-base sm:text-lg leading-relaxed mb-8">
+   608→            Dengan reputasi Star+ Seller di Shopee dan lebih dari 27.500 pengikut, REDBOX telah menjadi pilihan terpercaya ribuan orang tua di seluruh Indonesia. Kami percaya bahwa setiap anak layak tampil istimewa tanpa mengorbankan kenyamanan.
+   609→          </p>
+   610→          <div class="grid grid-cols-2 gap-8">
+   611→            <div class="border-l-3 border-redbox-600 pl-5">
+   612→              <p class="font-display text-2xl sm:text-3xl font-bold text-charcoal">Star+</p>
+   613→              <p class="text-warmgray text-xs tracking-wider uppercase mt-1 font-medium">Shopee Seller</p>
+   614→            </div>
+   615→            <div class="border-l-3 border-redbox-600 pl-5">
+   616→              <p class="font-display text-2xl sm:text-3xl font-bold text-charcoal">100%</p>
+   617→              <p class="text-warmgray text-xs tracking-wider uppercase mt-1 font-medium">Original Product</p>
+   618→            </div>
+   619→          </div>
+   620→        </div>
+   621→      </div>
+   622→    </div>
+   623→  </section>
+   624→
+   625→  <!-- ============================================ -->
+   626→  <!-- SECTION: TESTIMONI PELANGGAN                 -->
+   627→  <!-- ============================================ -->
+   628→  <section class="py-24 sm:py-32 bg-white">
+   629→    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   630→      <div class="text-center mb-16">
+   631→        <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-3">Testimoni</p>
+   632→        <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal mb-5">Kata Mereka yang Sudah Belanja</h2>
+   633→        <div class="section-divider mt-8"></div>
+   634→      </div>
+   635→      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+   636→        <div class="testi-card">
+   637→          <div class="flex gap-1 mb-4">
+   638→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   639→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   640→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   641→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   642→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   643→          </div>
+   644→          <p class="text-charcoal/80 text-sm sm:text-base leading-relaxed mb-6">"Bahannya enak banget di kulit anak, jahitannya rapi. Sudah langganan beli buat anak saya yang masih SD, ukurannya pas sesuai size guide-nya."</p>
+   645→          <div class="flex items-center gap-3">
+   646→            <div class="w-10 h-10 rounded-full bg-redbox-100 flex items-center justify-center font-display font-bold text-redbox-600">R</div>
+   647→            <div>
+   648→              <p class="text-sm font-semibold text-charcoal">Rina A.</p>
+   649→              <p class="text-xs text-warmgray">Pembeli Shopee · Bandung</p>
+   650→            </div>
+   651→          </div>
+   652→        </div>
+   653→        <div class="testi-card">
+   654→          <div class="flex gap-1 mb-4">
+   655→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   656→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   657→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   658→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   659→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   660→          </div>
+   661→          <p class="text-charcoal/80 text-sm sm:text-base leading-relaxed mb-6">"Outerwear-nya juara, dipakai anak remaja saya tiap hangout sama temannya. Pengiriman cepat dan packing-nya aman banget."</p>
+   662→          <div class="flex items-center gap-3">
+   663→            <div class="w-10 h-10 rounded-full bg-redbox-100 flex items-center justify-center font-display font-bold text-redbox-600">D</div>
+   664→            <div>
+   665→              <p class="text-sm font-semibold text-charcoal">Doni S.</p>
+   666→              <p class="text-xs text-warmgray">Pembeli Tokopedia · Surabaya</p>
+   667→            </div>
+   668→          </div>
+   669→        </div>
+   670→        <div class="testi-card">
+   671→          <div class="flex gap-1 mb-4">
+   672→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   673→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   674→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   675→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   676→            <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+   677→          </div>
+   678→          <p class="text-charcoal/80 text-sm sm:text-base leading-relaxed mb-6">"Modest wear-nya adem dipakai seharian, modelnya juga gak ketinggalan zaman. Anak saya sampai minta beli warna lain."</p>
+   679→          <div class="flex items-center gap-3">
+   680→            <div class="w-10 h-10 rounded-full bg-redbox-100 flex items-center justify-center font-display font-bold text-redbox-600">S</div>
+   681→            <div>
+   682→              <p class="text-sm font-semibold text-charcoal">Siti M.</p>
+   683→              <p class="text-xs text-warmgray">Pembeli Shopee · Jakarta</p>
+   684→            </div>
+   685→          </div>
+   686→        </div>
+   687→      </div>
+   688→    </div>
+   689→  </section>
+   690→
+   691→  <!-- ============================================ -->
+   692→  <!-- SECTION: FAQ                                 -->
+   693→  <!-- ============================================ -->
+   694→  <section class="py-24 sm:py-32 bg-cream">
+   695→    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+   696→      <div class="text-center mb-14">
+   697→        <p class="text-redbox-600 text-xs tracking-[0.3em] uppercase font-semibold mb-3">FAQ</p>
+   698→        <h2 class="font-display text-3xl sm:text-4xl font-bold text-charcoal mb-5">Pertanyaan yang Sering Ditanyakan</h2>
+   699→        <div class="section-divider mt-8"></div>
+
+[showing lines 200-699 of 1330; use offset=700 with limit to continue reading]

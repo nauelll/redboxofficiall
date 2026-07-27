@@ -1,0 +1,204 @@
+// REDBOX Official Website — Prisma schema
+// Dev: SQLite (file:./db/redbox.db) — zero setup
+// Prod: Neon PostgreSQL — set DATABASE_URL env var on Vercel
+//
+// To switch to Postgres in production:
+//   1. Change provider below to "postgresql"
+//   2. Set DATABASE_URL to your Neon connection string
+//   3. Run `bun run db:push`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// AUTH
+// ---------------------------------------------------------------------------
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  name         String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("admin_users")
+}
+
+// ---------------------------------------------------------------------------
+// CATALOG
+// ---------------------------------------------------------------------------
+
+model Category {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  tagline     String?
+  description String?
+  icon        String?
+  image       String?
+  bannerImage String?
+  seoTitle       String?
+  seoDescription String?
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  subcategories Subcategory[]
+  products      Product[]
+
+  @@map("categories")
+}
+
+model Subcategory {
+  id         String   @id @default(cuid())
+  slug       String
+  name       String
+  categoryId String
+  sortOrder  Int      @default(0)
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  category  Category  @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  products  Product[]
+
+  @@unique([categoryId, slug])
+  @@map("subcategories")
+}
+
+model Product {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  name           String
+  sku            String?  @unique
+  description    String?
+  detailInfo     String?  // "Detail Produk" — material composition, fit, etc.
+  careInfo       String?  // "Cara Perawatan"
+  material       String?
+  categoryId     String?
+  subcategoryId  String?
+  price          Int?
+  weightGram     Int?
+  images         String   @default("[]") // JSON array of URLs
+  video          String?
+  sizes          String   @default("[]") // JSON array
+  colors         String   @default("[]") // JSON array of {name, hex}
+  badge          String?  // NEW_ARRIVAL | BEST_SELLER | TRENDING | LIMITED_EDITION | SALE
+  rating         Float    @default(5.0)
+  reviewCount    Int      @default(0)
+  popularity     Int      @default(70)
+  shopeeUrl      String?
+  tiktokUrl      String?
+  lazadaUrl      String?
+  whatsappUrl    String?
+  seoTitle       String?
+  seoDescription String?
+  altImage       String?
+  status         String   @default("published") // published | draft | archived
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  category      Category?      @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  subcategory   Subcategory?   @relation(fields: [subcategoryId], references: [id], onDelete: SetNull)
+
+  @@index([categoryId])
+  @@index([subcategoryId])
+  @@index([status])
+  @@index([slug])
+  @@map("products")
+}
+
+// ---------------------------------------------------------------------------
+// MARKETING
+// ---------------------------------------------------------------------------
+
+model Banner {
+  id           String   @id @default(cuid())
+  title        String
+  subtitle     String?
+  ctaText      String?
+  ctaHref      String?
+  imageDesktop String
+  imageMobile  String?
+  placement    String   @default("hero") // hero | promo | side
+  overlay      String   @default("dark-left") // dark-left | dark-right | dark-bottom | light-left | light-right | light-bottom
+  sortOrder    Int      @default(0)
+  isActive     Boolean  @default(true)
+  startAt      DateTime?
+  endAt        DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([placement, isActive])
+  @@map("banners")
+}
+
+model BlogPost {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  title          String
+  excerpt        String?
+  content        String   // Markdown
+  coverImage     String?
+  category       String   @default("Tips Fashion") // Tips Fashion | Mix & Match | Fashion Trend | Perawatan Baju | Inspirasi Outfit
+  tags           String   @default("[]") // JSON array
+  author         String   @default("REDBOX Team")
+  seoTitle       String?
+  seoDescription String?
+  status         String   @default("published") // published | draft
+  featured       Boolean  @default(false)
+  publishedAt    DateTime @default(now())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([status, publishedAt])
+  @@map("blog_posts")
+}
+
+model Faq {
+  id        String   @id @default(cuid())
+  question  String
+  answer    String
+  category  String   @default("Umum") // Umum | Produk | Pesanan | Pengiriman | Pembayaran
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("faqs")
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  author    String
+  role      String?
+  avatar    String?
+  rating    Int      @default(5)
+  body      String
+  isActive  Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("testimonials")
+}
+
+// ---------------------------------------------------------------------------
+// SITE SETTINGS (key-value)
+// ---------------------------------------------------------------------------
+
+model SiteSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@map("site_settings")
+}

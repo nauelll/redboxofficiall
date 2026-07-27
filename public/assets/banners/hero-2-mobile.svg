@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400" width="1000" height="1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1400" fill="url(#bgm)"/>
+  <polygon points="600,0 1000,0 1000,700 600,840" fill="#E60012" opacity="0.7"/>
+  <text x="60" y="80" font-family="Poppins, sans-serif" font-size="12" letter-spacing="5" fill="white" font-weight="600">REDBOX</text>
+  <text x="60" y="770.0000000000001" font-family="Poppins, sans-serif" font-size="64" font-weight="800" fill="white" letter-spacing="-2">New Collection</text>
+  <text x="60" y="820.0000000000001" font-family="Inter, sans-serif" font-size="20" fill="white" opacity="0.8">Drop terbaru 2026.</text>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+  </defs>
+  
+    <rect width="1200" height="1500" fill="url(#bg)"/>
+    <text x="80" y="120" font-family="Poppins, Inter, sans-serif" font-size="14" letter-spacing="6" fill="#0a0a0a" font-weight="600">REDBOX</text>
+    <line x1="80" y1="140" x2="200" y2="140" stroke="#0a0a0a" stroke-width="1"/>
+    <g transform="translate(-30 -30) scale(1.05)">
+      <!-- T-shirt silhouette -->
+      <path d="M 450 400 L 540 340 L 580 380 L 620 380 L 660 340 L 750 400 L 800 540 L 740 560 L 740 1050 L 460 1050 L 460 560 L 400 540 Z"
+            fill="#0a0a0a" stroke="rgba(0,0,0,0.15)" stroke-width="2"/>
+      <path d="M 540 340 Q 600 380 660 340" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="2"/>
+      <circle cx="600" cy="500" r="6" fill="#E60012" opacity="0.8"/>
+      <circle cx="600" cy="600" r="6" fill="#E60012" opacity="0.8"/>
+    </g>
+    <text x="600" y="1400" font-family="Poppins, Inter, sans-serif" font-size="20" letter-spacing="3" fill="#0a0a0a" text-anchor="middle" font-weight="700">BASIC TEE</text>
+  
+</svg>

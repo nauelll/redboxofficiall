@@ -1,0 +1,22 @@
+{
+  "name": "REDBOX Official",
+  "short_name": "REDBOX",
+  "description": "Premium teen fashion brand dari Bandung",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E60012",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "shopping",
+    "lifestyle",
+    "fashion"
+  ]
+}
